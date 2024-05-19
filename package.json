@@ -1,0 +1,19 @@
+{
+  "name": "ts-repo",
+  "version": "1.0.0",
+  "description": "My descrption",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "global:typecheck": "cd $INIT_CWD && tsc --noEmit"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "a",
+    "b"
+  ],
+  "packageManager": "yarn@4.2.2",
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}

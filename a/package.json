@@ -1,0 +1,14 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "None",
+  "scripts": {
+    "typecheck": "run -T tsc"
+  },
+  "exports": {
+    ".": "./src/a.js",
+    "./foo": "./src/b.js"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
