@@ -11,8 +11,5 @@
     "./b": "./src/b.js"
   },
   "author": "",
-  "license": "UNLICENSED",
-  "dependencies": {
-    "a": "workspace:*"
-  }
+  "license": "UNLICENSED"
 }
