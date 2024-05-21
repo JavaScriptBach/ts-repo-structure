@@ -1,5 +1,5 @@
-import foo from "b";
-import bar from "b/b";
+import foo from "b/a";
+import bar from "b/c";
 
 foo();
 bar();

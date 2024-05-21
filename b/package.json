@@ -6,9 +6,7 @@
     "typecheck": "run -T tsc"
   },
   "exports": {
-    ".": "./src/a.js",
-    "./a": "./src/a.js",
-    "./b": "./src/b.js"
+    "./*": "./dist/*.js"
   },
   "author": "",
   "license": "UNLICENSED"

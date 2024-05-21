@@ -1,5 +1,6 @@
 {
   "extends": "../tsconfig.json",
   "references": [{ "path": "../b" }],
+  "outDir": "dist",
   "include": ["src/**/*.ts"]
 }
