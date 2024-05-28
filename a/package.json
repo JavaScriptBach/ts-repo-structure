@@ -6,7 +6,11 @@
     "typecheck": "run -T tsc"
   },
   "exports": {
-    "./*": "./dist/*.js"
+    "./a": "./dist/a.js",
+    "./b": "./dist/b.js"
+  },
+  "imports": {
+    "#a/*": "./dist/*.js"
   },
   "author": "",
   "license": "UNLICENSED",
