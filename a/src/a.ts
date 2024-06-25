@@ -16,6 +16,6 @@ bar();
 const x: number = myLocalFunction();
 
 myPrivateFunction();
-const y: number = myPrivateFunction2();
+const y: string = myPrivateFunction2();
 
 console.log(myPrivateFunction());
